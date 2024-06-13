@@ -1,0 +1,62 @@
+header{
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 1px;
+}
+
+.text1{
+    margin-top:70px;
+    margin-left: 75px;
+    margin-bottom: 1px;
+    text-align: center;
+    float: left;
+}
+.text2{
+    margin-top: 70px;
+    margin-right: 75px;
+    margin-bottom: 80px;
+    text-align: center;
+    float: right;
+}
+.album1{
+    border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+    background-color:azure;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #797970;
+}
+
+.album2{
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    background-color: azure;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #797970;
+}
+
+.songs{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+main{
+    padding:2rem ;
+}
+footer{
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    color: aliceblue;
+}
