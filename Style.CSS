@@ -1,7 +1,7 @@
 header{
     text-align: center;
-    padding: 2rem;
-    background-color: black;
+    padding: 3rem;
+    /* background-color: black; */
     color: aliceblue;
     margin-bottom: 1px;
 }
@@ -19,6 +19,12 @@ header{
     margin-bottom: 80px;
     text-align: center;
     float: right;
+}
+button{
+    float: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
 }
 .album1{
     border: 1px solid black;
@@ -57,6 +63,103 @@ main{
 footer{
     text-align: center;
     padding: 2rem;
-    background-color: black;
+    /* background-color: black; */
     color: aliceblue;
+}
+
+/* light Style */
+body{
+    background-color: whitesmoke;
+    color: #000;;
+    font-family: Arial, Helvetica, sans-serif;
+    transition:background-color 0.5s, color 0.5s;
+} 
+header{
+    background-color: #B6B6B1;
+    color: #000;
+}
+footer{
+    background-color: #B6B6B1;
+    color: #000;
+} 
+button{
+    background-color:#34495E;
+    color: #000;
+}
+
+/* Dark Style */
+body{
+    background-color: #34495E ;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+header{
+    background-color: #17202A;
+    color: whitesmoke;
+}
+footer{
+    background-color: #17202A;
+    color: whitesmoke;
+}
+button{
+    background-color:#7B7D7D ;
+    color: whitesmoke;
+}
+
+
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: #34495E ;
+    color: whitesmoke;
+    }
+    header{
+        background-color: #17202A;
+    }
+    footer{
+        background-color: #17202A;
+        color: whitesmoke;
+    }  
+    button{
+        background-color:#7B7D7D ;
+        color: whitesmoke;
+    }
+
+
+}
+:root {
+    --background-color: whitesmoke;
+    --text-color: #000;
+    --header-bg: #B6B6B1;
+    --button-bg: #B6B6B1;
+    --button-text: #000;
+    --b-color :#34495E ;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+}
+button{
+    background-color: var(--b-color);
+    
+}
+body.dark-mode {
+    --background-color: #34495E;
+    --text-color: whitesmoke;
+    --header-bg: #17202A;
+    --button-bg: #17202A;
+    --button-text:whitesmoke;
+    --b-color :#7B7D7D;
 }
