@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  padding: 3rem;
+  background-color: black;
+  color: aliceblue;
+  margin-bottom: 1px;
+}
+#headImg{
+    height: 100px;
+}
+.imgs{   
+    width: 10px;
+}
+#dis{
+    text-align: center;
+}
+#dis2{
+    margin-left: 50px;
+    margin-right: 50px;
+}

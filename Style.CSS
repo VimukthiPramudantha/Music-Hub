@@ -1,165 +1,170 @@
-header{
-    text-align: center;
-    padding: 3rem;
-    /* background-color: black; */
-    color: aliceblue;
-    margin-bottom: 1px;
+header {
+  text-align: center;
+  padding: 3rem;
+  /* background-color: black; */
+  color: aliceblue;
+  margin-bottom: 1px;
 }
 
-.text1{
-    margin-top:70px;
-    margin-left: 75px;
-    margin-bottom: 1px;
-    text-align: center;
-    float: left;
+.text1 {
+  margin-top: 70px;
+  margin-left: 75px;
+  margin-bottom: 1px;
+  text-align: center;
+  float: left;
 }
-.text2{
-    margin-top: 70px;
-    margin-right: 75px;
-    margin-bottom: 80px;
-    text-align: center;
-    float: right;
+.text2 {
+  margin-top: 70px;
+  margin-right: 75px;
+  margin-bottom: 80px;
+  text-align: center;
+  float: right;
 }
-button{
-    float: right;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px;
+button {
+  float: right;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
 }
-.album1{
-    border: 1px solid black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 200px;
-    height: 250px;
-    margin-top: 20px;
-    margin-right: 40px;
-    display: inline-block;
-    background-color:azure;
-    border-radius: 8px;
-    box-shadow: 10px 10px 10px #797970;
+.album1 {
+  border: 1px solid black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  margin-right: 40px;
+  display: inline-block;
+  background-color: azure;
+  border-radius: 8px;
+  box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.6s, box-shadow ease 0.6s;
 }
-
-.album2{
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 200px;
-    height: 250px;
-    display: inline-block;
-    background-color: azure;
-    margin-top: 20px;
-    margin-left: 40px;
-    border-radius: 8px;
-    box-shadow: 10px 10px 10px #797970;
+.album1:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
-
-.songs{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
+.album2 {
+  border: 1px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  background-color: azure;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.6s, box-shadow ease 0.6s;
 }
-main{
-    padding: 2rem;
+.album2:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
-footer{
-    text-align: center;
-    padding: 2rem;
-    /* background-color: black; */
-    color: aliceblue;
+.songs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main {
+  padding: 2rem;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  /* background-color: black; */
+  color: aliceblue;
 }
 
 /* light Style */
-body{
-    background-color: whitesmoke;
-    color: #000;;
-    font-family: Arial, Helvetica, sans-serif;
-    transition:background-color 0.5s, color 0.5s;
-} 
-header{
-    background-color: #B6B6B1;
-    color: #000;
+body {
+  background-color: whitesmoke;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
 }
-footer{
-    background-color: #B6B6B1;
-    color: #000;
-} 
-button{
-    background-color:#34495E;
-    color: #000;
+header {
+  background-color: #b6b6b1;
+  color: #000;
+}
+footer {
+  background-color: #b6b6b1;
+  color: #000;
+}
+button {
+  background-color: #34495e;
+  color: #000;
 }
 
 /* Dark Style */
-body{
-    background-color: #34495E ;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 0.5s, color 0.5s;
+body {
+  background-color: #34495e;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
 }
-header{
-    background-color: #17202A;
-    color: whitesmoke;
+header {
+  background-color: #17202a;
+  color: whitesmoke;
 }
-footer{
-    background-color: #17202A;
-    color: whitesmoke;
+footer {
+  background-color: #17202a;
+  color: whitesmoke;
 }
-button{
-    background-color:#7B7D7D ;
-    color: whitesmoke;
+button {
+  background-color: #7b7d7d;
+  color: whitesmoke;
 }
 
-
-@media(prefers-color-scheme: dark){
-    body{
-        background-color: #34495E ;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #34495e;
     color: whitesmoke;
-    }
-    header{
-        background-color: #17202A;
-    }
-    footer{
-        background-color: #17202A;
-        color: whitesmoke;
-    }  
-    button{
-        background-color:#7B7D7D ;
-        color: whitesmoke;
-    }
-
-
+  }
+  header {
+    background-color: #17202a;
+  }
+  footer {
+    background-color: #17202a;
+    color: whitesmoke;
+  }
+  button {
+    background-color: #7b7d7d;
+    color: whitesmoke;
+  }
 }
 :root {
-    --background-color: whitesmoke;
-    --text-color: #000;
-    --header-bg: #B6B6B1;
-    --button-bg: #B6B6B1;
-    --button-text: #000;
-    --b-color :#34495E ;
+  --background-color: whitesmoke;
+  --text-color: #000;
+  --header-bg: #b6b6b1;
+  --button-bg: #b6b6b1;
+  --button-text: #000;
+  --b-color: #34495e;
 }
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    transition: background-color 0.5s, color 0.5s;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.5s, color 0.5s;
 }
 
 header {
-    background-color: var(--header-bg);
-    color: var(--text-color);
-    border-bottom: 1px solid #ccc;
+  background-color: var(--header-bg);
+  color: var(--text-color);
+  border-bottom: 1px solid #ccc;
 }
 
 footer {
-    background-color: var(--button-bg);
-    color: var(--button-text);
+  background-color: var(--button-bg);
+  color: var(--button-text);
 }
-button{
-    background-color: var(--b-color);
-    
+button {
+  background-color: var(--b-color);
 }
 body.dark-mode {
-    --background-color: #34495E;
-    --text-color: whitesmoke;
-    --header-bg: #17202A;
-    --button-bg: #17202A;
-    --button-text:whitesmoke;
-    --b-color :#7B7D7D;
+  --background-color: #34495e;
+  --text-color: whitesmoke;
+  --header-bg: #17202a;
+  --button-bg: #17202a;
+  --button-text: whitesmoke;
+  --b-color: #7b7d7d;
 }
