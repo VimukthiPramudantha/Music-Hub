@@ -5,16 +5,26 @@ header {
   color: aliceblue;
   margin-bottom: 1px;
 }
-#headImg{
-    height: 100px;
+#headImg {
+  height: 200px;
+  /* border-radius: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-.imgs{   
-    width: 10px;
+.imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* width: 10px */
 }
-#dis{
-    text-align: center;
+#dis {
+  text-align: center;
+  margin-bottom: 100px;
 }
-#dis2{
-    margin-left: 50px;
-    margin-right: 50px;
+#dis2 {
+  margin-left: 50px;
+  margin-right: 50px;
 }
