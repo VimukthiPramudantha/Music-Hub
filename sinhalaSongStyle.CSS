@@ -2,7 +2,7 @@ header {
   text-align: center;
   padding: 3rem;
   background-color: black;
-  color: aliceblue;
+  color: white  ;
   margin-bottom: 1px;
   margin-left: 10px;
 }
@@ -14,7 +14,11 @@ header {
   justify-content: center;
   gap: 20px;
 }
-
+.all{
+  background: url(./pnj/aleksandr-popov-JhYnL-BiP18-unsplash.jpg);
+  background-repeat: no-repeat;
+  
+}
 .img {
   opacity: 1;
   transition: 0.5s ease;
@@ -33,17 +37,22 @@ header {
   text-align: center;
   margin-bottom: 100px;
   margin-top: 80px;
+  color: #f2f2f2;
 }
 #dis2 {
   margin-left: 50px;
   margin-right: 50px;
+  font-family: Monospace;
+  font-size: large;
 }
 #albemHead {
   padding-top: 30px;
   margin-bottom: 80px;
   text-align: center;
+  color: #f2f2f2;
 }
 #chamara {
+  font-family: Monospace;
   /* border-radius: 100%;
   box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5); */
   transition: transform ease 0.6s;
@@ -53,30 +62,35 @@ header {
   /* box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25); */
 }
 #bns {
+  font-family: Monospace;
   transition: transform ease 0.6s;
 }
 #bns:hover {
   transform: translateY(-6px);
 }
 #iraj {
+  font-family: Monospace;
   transition: transform ease 0.6s;
 }
 #iraj:hover {
   transform: translateY(-6px);
 }
 #kanchana {
+  font-family: Monospace;
   transition: transform ease 0.6s;
 }
 #kanchana:hover {
   transform: translateY(-6px);
 }
 #adithya {
+  font-family: Monospace;
   transition: transform ease 0.6s;
 }
 #adithya:hover {
   transform: translateY(-6px);
 }
 #sanuka {
+  font-family: Monospace;
   transition: transform ease 0.6s;
 }
 #sanuka:hover {
@@ -85,4 +99,44 @@ header {
 a {
   text-decoration: none;
   color: black;
+}
+#old{
+  font-family: Monospace;
+  font-size: large
+}
+#morden{
+  font-family: Monospace;
+  font-size: large 
+}
+#baila{
+  font-family: Monospace;
+  font-size: large
+}
+#rap{
+  font-family: Monospace;
+  font-size: large;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  margin-left: 10px;  
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #FDEBD0;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+#artists{
+  color: #f2f2f2; 
 }
