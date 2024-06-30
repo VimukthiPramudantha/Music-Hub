@@ -6,21 +6,6 @@ header {
   margin-bottom: 1px;
   margin-left: 10px;
 }
-
-.text1 {
-  margin-top: 70px;
-  margin-left: 75px;
-  margin-bottom: 1px;
-  text-align: center;
-  float: left;
-}
-.text2 {
-  margin-top: 70px;
-  margin-right: 75px;
-  margin-bottom: 80px;
-  text-align: center;
-  float: right;
-}
 button {
   /* background-color:black; */
   float: right;
@@ -28,6 +13,8 @@ button {
   height: 47px;
   color: white;
   border: none;
+  font-family: Monospace;
+  font-size: large;
 }
 button:hover {
   background-color: #fdebd0;
@@ -35,8 +22,6 @@ button:hover {
 }
 .album1 {
   border: 1px solid black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 200px;
   height: 250px;
   margin-top: 20px;
@@ -46,6 +31,9 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.6s, box-shadow ease 0.6s;
+  text-align: center;
+  font-family: Monospace;
+  font-size: large;
 }
 .album1:hover {
   transform: translateY(-6px);
@@ -53,7 +41,6 @@ button:hover {
 }
 .album2 {
   border: 1px solid black;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 200px;
   height: 250px;
   display: inline-block;
@@ -63,6 +50,9 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.6s, box-shadow ease 0.6s;
+  text-align: center;
+  font-family: Monospace;
+  font-size: large;
 }
 .album2:hover {
   transform: translateY(-6px);
@@ -72,17 +62,25 @@ button:hover {
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
+  font-family: Monospace;
+  font-size: large;
+  margin-bottom: 6%;
 }
-.reson{
+.reson {
   text-align: center;
   margin-left: 70px;
   margin-right: 70px;
+  font-family: Monospace;
+  font-size: large;
+  margin-top: 7%;
 }
-.tnx{
+.tnx {
   margin-top: 100px;
   text-align: center;
   margin-left: 70px;
   margin-right: 70px;
+  font-family: Monospace;
+  font-size: larger;
 }
 .songs {
   display: flex;
@@ -93,12 +91,15 @@ main {
   padding: 2rem;
 }
 table {
-  font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  /* text-align: center; */
+  font-family: Monospace;
+  font-size: large;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -141,8 +142,9 @@ body {
 header {
   background-color: #b6b6b1;
   color: #000;
+  font-family: Proza;
 }
-table{
+table {
   color: black;
 }
 .topnav {
@@ -162,30 +164,30 @@ button {
 
 /* Dark Style */
 body {
-  background-color: #34495e;
+  background-color: #71706e;
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   transition: background-color 0.5s, color 0.5s;
 }
-table{
+table {
   color: whitesmoke;
 }
 header {
-  background-color: #17202a;
+  background-color: #222222;
   color: whitesmoke;
 }
 .topnav {
-  background-color: #17202a;
+  background-color: #222222;
 }
 #darkmood {
-  background-color: #17202a;
+  background-color: black;
 }
 #darkmood:hover {
   background-color: #fdebd0;
   color: black;
 }
 button {
-  background-color: #17202a;
+  background-color: black;
   color: whitesmoke;
 }
 
@@ -195,23 +197,23 @@ button {
     color: whitesmoke;
   }
   header {
-    background-color: #17202a;
+    background-color: #222222;
   }
-  table{
+  table {
     color: black;
   }
   .topnav {
-    background-color: #17202a;
+    background-color: #222222;
   }
   #darkmood {
-    background-color: #17202a;
+    background-color: black;
   }
   #darkmood:hover {
     background-color: #fdebd0;
     color: black;
   }
   button {
-    background-color: #7b7d7d;
+    background-color: black;
     color: whitesmoke;
   }
 }
@@ -234,7 +236,7 @@ body {
 .topnav {
   background-color: var(--nav-color);
 }
-table{
+table {
   color: var(--tColor);
 }
 header {
@@ -250,33 +252,33 @@ button {
   background-color: var(--b-color);
 }
 body.dark-mode {
-  --background-color: #34495e;
+  --background-color: #71706e;
   --text-color: whitesmoke;
-  --header-bg: #17202a;
-  --button-bg: #17202a;
+  --header-bg: #222222;
+  --button-bg: black;
   --button-text: whitesmoke;
-  --nav-color: #17202a;
-  --dColor: #17202a;
-  --tColor :black;
+  --nav-color: #222222;
+  --dColor: #222222;
+  --tColor: black;
 }
-#fb{
+#fb {
   transition: transform ease 0.6s, box-shadow ease 0.6s;
 }
-#fb:hover{
+#fb:hover {
   transform: translateY(-6px);
   box-shadow: none rgba(0, 0, 0, 0.25);
 }
-#inst{
+#inst {
   transition: transform ease 0.6s, box-shadow ease 0.6s;
 }
-#inst:hover{
+#inst:hover {
   transform: translateY(-6px);
   box-shadow: none rgba(0, 0, 0, 0.25);
 }
-#git{
+#git {
   transition: transform ease 0.6s, box-shadow ease 0.6s;
 }
-#git:hover{
+#git:hover {
   transform: translateY(-6px);
   box-shadow: none rgba(0, 0, 0, 0.25);
 }

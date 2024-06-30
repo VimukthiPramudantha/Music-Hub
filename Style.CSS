@@ -4,32 +4,24 @@ header {
   /* background-color: black; */
   color: aliceblue;
   margin-bottom: 1px;
-}
-
-.text1 {
-  margin-top: 70px;
-  margin-left: 75px;
-  margin-bottom: 1px;
-  text-align: center;
-  float: left;
-}
-.text2 {
-  margin-top: 70px;
-  margin-right: 75px;
-  margin-bottom: 80px;
-  text-align: center;
-  float: right;
+  margin-left: 10px;
 }
 button {
+  /* background-color:black; */
   float: right;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px;
+  width: 80px;
+  height: 47px;
+  color: white;
+  border: none;
+  font-family: Monospace;
+  font-size: large;
+}
+button:hover {
+  background-color: #fdebd0;
+  color: black;
 }
 .album1 {
   border: 1px solid black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 200px;
   height: 250px;
   margin-top: 20px;
@@ -39,6 +31,9 @@ button {
   border-radius: 8px;
   box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.6s, box-shadow ease 0.6s;
+  text-align: center;
+  font-family: Monospace;
+  font-size: large;
 }
 .album1:hover {
   transform: translateY(-6px);
@@ -46,302 +41,46 @@ button {
 }
 .album2 {
   border: 1px solid black;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 200px;
   height: 250px;
   display: inline-block;
   background-color: azure;
   margin-top: 20px;
-  margin-left: 40px;header {
-    text-align: center;
-    padding: 3rem;
-    /* background-color: black; */
-    color: aliceblue;
-    margin-bottom: 1px;
-    margin-left: 10px;
-  }
-  
-  .text1 {
-    margin-top: 70px;
-    margin-left: 75px;
-    margin-bottom: 1px;
-    text-align: center;
-    float: left;
-  }
-  .text2 {
-    margin-top: 70px;
-    margin-right: 75px;
-    margin-bottom: 80px;
-    text-align: center;
-    float: right;
-  }
-  button {
-    /* background-color:black; */
-    float: right;
-    width: 80px;
-    height: 47px;
-    color: white;
-    border: none;
-  }
-  button:hover {
-    background-color: #fdebd0;
-    color: black;
-  }
-  .album1 {
-    border: 1px solid black;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    width: 200px;
-    height: 250px;
-    margin-top: 20px;
-    margin-right: 40px;
-    display: inline-block;
-    background-color: azure;
-    border-radius: 8px;
-    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
-    transition: transform ease 0.6s, box-shadow ease 0.6s;
-  }
-  .album1:hover {
-    transform: translateY(-6px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-  }
-  .album2 {
-    border: 1px solid black;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    width: 200px;
-    height: 250px;
-    display: inline-block;
-    background-color: azure;
-    margin-top: 20px;
-    margin-left: 40px;
-    border-radius: 8px;
-    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
-    transition: transform ease 0.6s, box-shadow ease 0.6s;
-  }
-  .album2:hover {
-    transform: translateY(-6px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-  }
-  .dis {
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .reson{
-    text-align: center;
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-  .tnx{
-    margin-top: 100px;
-    text-align: center;
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-  .songs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  main {
-    padding: 2rem;
-  }
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-  .topnav {
-    overflow: hidden;
-    /* background-color: black; */
-    margin-left: 10px;
-  }
-  .topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .topnav a:hover {
-    background-color: #fdebd0;
-    color: black;
-  }
-  .topnav a.active {
-    /* background-color: #04AA6D; */
-    color: white;
-  }
-  
-  /* change team  */
-  
-  /* light Style */
-  body {
-    background-color: whitesmoke;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 0.5s, color 0.5s;
-  }
-  header {
-    background-color: #b6b6b1;
-    color: #000;
-  }
-  table{
-    color: black;
-  }
-  .topnav {
-    background-color: #b6b6b1;
-  }
-  #darkmood {
-    background-color: #b6b6b1;
-  }
-  #darkmood:hover {
-    background-color: #fdebd0;
-    color: black;
-  }
-  button {
-    background-color: #b6b6b1;
-    color: black;
-  }
-  
-  /* Dark Style */
-  body {
-    background-color: #34495e;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 0.5s, color 0.5s;
-  }
-  table{
-    color: whitesmoke;
-  }
-  header {
-    background-color: #17202a;
-    color: whitesmoke;
-  }
-  .topnav {
-    background-color: #17202a;
-  }
-  #darkmood {
-    background-color: #17202a;
-  }
-  #darkmood:hover {
-    background-color: #fdebd0;
-    color: black;
-  }
-  button {
-    background-color: #17202a;
-    color: whitesmoke;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #34495e;
-      color: whitesmoke;
-    }
-    header {
-      background-color: #17202a;
-    }
-    table{
-      color: black;
-    }
-    .topnav {
-      background-color: #17202a;
-    }
-    #darkmood {
-      background-color: #17202a;
-    }
-    #darkmood:hover {
-      background-color: #fdebd0;
-      color: black;
-    }
-    button {
-      background-color: #7b7d7d;
-      color: whitesmoke;
-    }
-  }
-  :root {
-    --background-color: whitesmoke;
-    --text-color: #000;
-    --header-bg: #b6b6b1;
-    --button-bg: #b6b6b1;
-    --button-text: #000;
-    --b-color: #34495e;
-    --nav-color: #b6b6b1;
-    --dColor: #b6b6b1;
-    --tColor: black;
-  }
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    transition: background-color 0.5s, color 0.5s;
-  }
-  .topnav {
-    background-color: var(--nav-color);
-  }
-  table{
-    color: var(--tColor);
-  }
-  header {
-    background-color: var(--header-bg);
-    color: var(--text-color);
-    border-bottom: 1px solid #ccc;
-  }
-  
-  #darkmood {
-    background-color: var(--dColor);
-  }
-  button {
-    background-color: var(--b-color);
-  }
-  body.dark-mode {
-    --background-color: #34495e;
-    --text-color: whitesmoke;
-    --header-bg: #17202a;
-    --button-bg: #17202a;
-    --button-text: whitesmoke;
-    --nav-color: #17202a;
-    --dColor: #17202a;
-    --tColor :black;
-  }
-  #fb{
-    transition: transform ease 0.6s, box-shadow ease 0.6s;
-  }
-  #fb:hover{
-    transform: translateY(-6px);
-    box-shadow: none rgba(0, 0, 0, 0.25);
-  }
-  #inst{
-    transition: transform ease 0.6s, box-shadow ease 0.6s;
-  }
-  #inst:hover{
-    transform: translateY(-6px);
-    box-shadow: none rgba(0, 0, 0, 0.25);
-  }
-  #git{
-    transition: transform ease 0.6s, box-shadow ease 0.6s;
-  }
-  #git:hover{
-    transform: translateY(-6px);
-    box-shadow: none rgba(0, 0, 0, 0.25);
-  }
-  
+  margin-left: 40px;
   border-radius: 8px;
   box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.6s, box-shadow ease 0.6s;
+  text-align: center;
+  font-family: Monospace;
+  font-size: large;
 }
 .album2:hover {
   transform: translateY(-6px);
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.dis {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Monospace;
+  font-size: large;
+  margin-bottom: 6%;
+}
+.reson {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: Monospace;
+  font-size: large;
+  margin-top: 7%;
+}
+.tnx {
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: Monospace;
+  font-size: larger;
 }
 .songs {
   display: flex;
@@ -351,12 +90,47 @@ button {
 main {
   padding: 2rem;
 }
-footer {
-  text-align: center;
-  padding: 2rem;
-  /* background-color: black; */
-  color: aliceblue;
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* text-align: center; */
+  font-family: Monospace;
+  font-size: large;
 }
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.topnav {
+  overflow: hidden;
+  /* background-color: black; */
+  margin-left: 10px;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #fdebd0;
+  color: black;
+}
+.topnav a.active {
+  /* background-color: #04AA6D; */
+  color: white;
+}
+
+/* change team  */
 
 /* light Style */
 body {
@@ -368,33 +142,52 @@ body {
 header {
   background-color: #b6b6b1;
   color: #000;
+  font-family: Proza;
 }
-footer {
+table {
+  color: black;
+}
+.topnav {
   background-color: #b6b6b1;
-  color: #000;
+}
+#darkmood {
+  background-color: #b6b6b1;
+}
+#darkmood:hover {
+  background-color: #fdebd0;
+  color: black;
 }
 button {
-  background-color: #34495e;
-  color: #000;
+  background-color: #b6b6b1;
+  color: black;
 }
 
 /* Dark Style */
 body {
-  background-color: #34495e;
+  background-color: #71706e;
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   transition: background-color 0.5s, color 0.5s;
 }
-header {
-  background-color: #17202a;
+table {
   color: whitesmoke;
 }
-footer {
-  background-color: #17202a;
+header {
+  background-color: #222222;
   color: whitesmoke;
+}
+.topnav {
+  background-color: #222222;
+}
+#darkmood {
+  background-color: black;
+}
+#darkmood:hover {
+  background-color: #fdebd0;
+  color: black;
 }
 button {
-  background-color: #7b7d7d;
+  background-color: black;
   color: whitesmoke;
 }
 
@@ -404,14 +197,23 @@ button {
     color: whitesmoke;
   }
   header {
-    background-color: #17202a;
+    background-color: #222222;
   }
-  footer {
-    background-color: #17202a;
-    color: whitesmoke;
+  table {
+    color: black;
+  }
+  .topnav {
+    background-color: #222222;
+  }
+  #darkmood {
+    background-color: black;
+  }
+  #darkmood:hover {
+    background-color: #fdebd0;
+    color: black;
   }
   button {
-    background-color: #7b7d7d;
+    background-color: black;
     color: whitesmoke;
   }
 }
@@ -422,31 +224,61 @@ button {
   --button-bg: #b6b6b1;
   --button-text: #000;
   --b-color: #34495e;
+  --nav-color: #b6b6b1;
+  --dColor: #b6b6b1;
+  --tColor: black;
 }
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.5s, color 0.5s;
 }
-
+.topnav {
+  background-color: var(--nav-color);
+}
+table {
+  color: var(--tColor);
+}
 header {
   background-color: var(--header-bg);
   color: var(--text-color);
   border-bottom: 1px solid #ccc;
 }
 
-footer {
-  background-color: var(--button-bg);
-  color: var(--button-text);
+#darkmood {
+  background-color: var(--dColor);
 }
 button {
   background-color: var(--b-color);
 }
 body.dark-mode {
-  --background-color: #34495e;
+  --background-color: #71706e;
   --text-color: whitesmoke;
-  --header-bg: #17202a;
-  --button-bg: #17202a;
+  --header-bg: #222222;
+  --button-bg: black;
   --button-text: whitesmoke;
-  --b-color: #7b7d7d;
+  --nav-color: #222222;
+  --dColor: #222222;
+  --tColor: black;
+}
+#fb {
+  transition: transform ease 0.6s, box-shadow ease 0.6s;
+}
+#fb:hover {
+  transform: translateY(-6px);
+  box-shadow: none rgba(0, 0, 0, 0.25);
+}
+#inst {
+  transition: transform ease 0.6s, box-shadow ease 0.6s;
+}
+#inst:hover {
+  transform: translateY(-6px);
+  box-shadow: none rgba(0, 0, 0, 0.25);
+}
+#git {
+  transition: transform ease 0.6s, box-shadow ease 0.6s;
+}
+#git:hover {
+  transform: translateY(-6px);
+  box-shadow: none rgba(0, 0, 0, 0.25);
 }
