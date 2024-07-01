@@ -25,7 +25,7 @@ button:hover {
   width: 200px;
   height: 250px;
   margin-top: 20px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
   display: inline-block;
   background-color: azure;
   border-radius: 8px;
@@ -34,27 +34,9 @@ button:hover {
   text-align: center;
   font-family: Monospace;
   font-size: large;
+  margin-right: 2px;
 }
 .album1:hover {
-  transform: translateY(-6px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-}
-.album2 {
-  border: 1px solid black;
-  width: 200px;
-  height: 250px;
-  display: inline-block;
-  background-color: azure;
-  margin-top: 20px;
-  margin-left: 40px;
-  border-radius: 8px;
-  box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
-  transition: transform ease 0.6s, box-shadow ease 0.6s;
-  text-align: center;
-  font-family: Monospace;
-  font-size: large;
-}
-.album2:hover {
   transform: translateY(-6px);
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
@@ -128,6 +110,16 @@ tr:nth-child(even) {
 .topnav a.active {
   /* background-color: #04AA6D; */
   color: white;
+}
+#darkmood{
+  font-size: large;
+}
+
+#darkmood  img{
+  vertical-align: middle;
+  margin-right: 10px; 
+    width: 45 px; 
+    height: 45px;
 }
 
 /* change team  */
