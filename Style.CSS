@@ -129,6 +129,16 @@ tr:nth-child(even) {
   /* background-color: #04AA6D; */
   color: white;
 }
+#darkmood{
+  font-size: large;
+}
+
+#darkmood  img{
+  vertical-align: middle;
+  margin-right: 10px; 
+    width: 45 px; 
+    height: 45px;
+}
 
 /* change team  */
 

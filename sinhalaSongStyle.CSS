@@ -2,7 +2,7 @@ header {
   text-align: center;
   padding: 3rem;
   background-color: black;
-  color: white  ;
+  color: white;
   margin-bottom: 1px;
   margin-left: 10px;
 }
@@ -14,10 +14,9 @@ header {
   justify-content: center;
   gap: 20px;
 }
-.all{
+.all {
   background: url(./pnj/aleksandr-popov-JhYnL-BiP18-unsplash.jpg);
   background-repeat: no-repeat;
-  
 }
 .img {
   opacity: 1;
@@ -100,26 +99,26 @@ a {
   text-decoration: none;
   color: black;
 }
-#old{
+#old {
   font-family: Monospace;
-  font-size: large
+  font-size: large;
 }
-#morden{
+#morden {
   font-family: Monospace;
-  font-size: large 
+  font-size: large;
 }
-#baila{
+#baila {
   font-family: Monospace;
-  font-size: large
+  font-size: large;
 }
-#rap{
+#rap {
   font-family: Monospace;
   font-size: large;
 }
 .topnav {
   overflow: hidden;
   background-color: black;
-  margin-left: 10px;  
+  margin-left: 10px;
 }
 .topnav a {
   float: right;
@@ -130,13 +129,13 @@ a {
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: #FDEBD0;
+  background-color: #fdebd0;
   color: black;
 }
 .topnav a.active {
   /* background-color: #04AA6D; */
   color: white;
 }
-#artists{
-  color: #f2f2f2; 
+#artists {
+  color: #f2f2f2;
 }
