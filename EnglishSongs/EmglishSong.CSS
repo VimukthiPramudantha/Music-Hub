@@ -27,18 +27,61 @@ header {
   height: 200px;
   width: 200px;
 }
-#popular{
+#popular {
   border-radius: 100%;
   height: 200px;
   width: 200px;
 }
-#rap{
+#rap {
   border-radius: 100%;
   height: 200px;
-  width: 200px; 
+  width: 200px;
 }
-#soul{
+#soul {
   border-radius: 100%;
   height: 200px;
-  width: 200px; 
+  width: 200px;
+}
+#about {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  margin-left: 10px;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #fdebd0;
+  color: black;
+}
+.topnav a.active {
+  /* background-color: #04AA6D; */
+  color: white;
+}
+#harry{
+  border-radius: 100%;
+}
+#ariana{
+  border-radius: 100%;
+}
+#jackson{
+  border-radius: 100%;
+}
+#sahakira{
+  border-radius: 100%;
+}
+#akon{
+  border-radius: 100%;
+}
+#cardi{
+  border-radius: 100%;
 }
