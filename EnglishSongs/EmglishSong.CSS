@@ -3,11 +3,12 @@ header {
   padding: 3rem;
   background-color: black;
   color: white;
-  margin-bottom: 1px;
   margin-left: 10px;
+  margin-bottom: 60px;
 }
 #albums {
   text-align: center;
+  margin-bottom: 50px;
 }
 #headImage {
   display: flex;
@@ -15,9 +16,14 @@ header {
   justify-content: center;
   gap: 20px;
   /* border-radius: 100%; */
+  margin-bottom: 60px;
 }
 #dic {
   text-align: center;
+  margin-bottom: 80px;
+}
+#dis2{
+  margin-bottom: 30px;
 }
 #footerImage {
   text-align: center;
@@ -29,15 +35,13 @@ header {
 }
 #popular {
   border-radius: 100%;
-  height: 200px;
-  width: 200px;
 }
 #rap {
   border-radius: 100%;
   height: 200px;
   width: 200px;
 }
-#soul {
+#old {
   border-radius: 100%;
   height: 200px;
   width: 200px;
@@ -84,4 +88,7 @@ header {
 }
 #cardi{
   border-radius: 100%;
+}
+#footer{
+  margin-bottom: 50px;
 }
