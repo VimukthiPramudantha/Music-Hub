@@ -15,7 +15,7 @@ header {
   gap: 20px;
 }
 .all {
-  background: url(./pnj/aleksandr-popov-JhYnL-BiP18-unsplash.jpg);
+  background: url(./aleksandr-popov-JhYnL-BiP18-unsplash.jpg);
   background-repeat: no-repeat;
 }
 .img {
@@ -41,12 +41,12 @@ header {
 #dis2 {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: Monospace;
-  font-size: large;
+  font-family: Tahoma;
+  /* font-size: large; */
 }
 #albemHead {
   padding-top: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
   text-align: center;
   color: #f2f2f2;
 }
@@ -100,20 +100,20 @@ a {
   color: black;
 }
 #old {
-  font-family: Monospace;
-  font-size: large;
+  font-family: Tahoma;
+  
 }
 #morden {
-  font-family: Monospace;
-  font-size: large;
+  font-family: Tahoma;
+  
 }
 #baila {
-  font-family: Monospace;
-  font-size: large;
+  font-family: Tahoma;
+  
 }
 #rap {
-  font-family: Monospace;
-  font-size: large;
+  font-family: Tahoma;
+  
 }
 .topnav {
   overflow: hidden;

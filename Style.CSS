@@ -32,7 +32,7 @@ button:hover {
   box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.6s, box-shadow ease 0.6s;
   text-align: center;
-  font-family: Monospace;
+  font-family: Tahoma;
   font-size: large;
   margin-right: 15px;
   margin-left: 15px;
@@ -45,16 +45,16 @@ button:hover {
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
-  font-family: Monospace;
-  font-size: large;
+  font-family: Tahoma;
+  
   margin-bottom: 6%;
 }
 .reson {
   text-align: center;
   margin-left: 70px;
   margin-right: 70px;
-  font-family: Monospace;
-  font-size: large;
+  font-family: Tahoma;
+  
   margin-top: 7%;
 }
 .tnx {
@@ -62,8 +62,7 @@ button:hover {
   text-align: center;
   margin-left: 70px;
   margin-right: 70px;
-  font-family: Monospace;
-  font-size: larger;
+  font-family: Tahoma;
 }
 .songs {
   display: flex;
