@@ -16,8 +16,8 @@ header {
   transition: 0.5s ease;
 }
 .img:hover {
-    opacity: 0.3;
-  }
+  opacity: 0.3;
+}
 #headImage {
   display: flex;
   align-items: center;
@@ -37,13 +37,14 @@ header {
   border-radius: 100%;
   transition: transform ease 0.6s;
 }
-.Bimg:hover{
-    transform: translateY(-6px);
+.Bimg:hover {
+  transform: translateY(-6px);
 }
 #disA {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 80px;
+  font-family: Tahoma;
 }
 .topnav {
   overflow: hidden;
@@ -74,5 +75,5 @@ header {
   align-items: center;
   justify-content: center;
   gap: 15px;
+  font-family: Tahoma;
 }
-
