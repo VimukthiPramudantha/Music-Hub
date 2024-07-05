@@ -6,20 +6,73 @@ header {
   margin-left: 10px;
   margin-bottom: 60px;
 }
-#head{
-    text-align: center;
+#head {
+  text-align: center;
+  /* gap: 20px; */
 }
-.img{
-    border-radius: 100%;
+.img {
+  border-radius: 100%;
+  opacity: 1;
+  transition: 0.5s ease;
 }
-#dis{
-    text-align: center;
+.img:hover {
+    opacity: 0.3;
+  }
+#headImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Tahoma;
+  gap: 20px;
+  /* border-radius: 100%; */
+  margin-bottom: 60px;
 }
-#bottomImg{
-    text-align: center;
+#dis {
+  text-align: center;
 }
-.Bimg{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
+#bottom {
+  text-align: center;
 }
+.Bimg {
+  border-radius: 100%;
+  transition: transform ease 0.6s;
+}
+.Bimg:hover{
+    transform: translateY(-6px);
+}
+#disA {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  margin-left: 10px;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #fdebd0;
+  color: black;
+}
+.topnav a.active {
+  /* background-color: #04AA6D; */
+  color: white;
+}
+#album {
+  margin-bottom: 50px;
+}
+#bottomImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
