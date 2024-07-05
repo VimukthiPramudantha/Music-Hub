@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+  padding: 3rem;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 60px;
+}
+#head{
+    text-align: center;
+}
+.img{
+    border-radius: 100%;
+}
+#dis{
+    text-align: center;
+}
+#bottomImg{
+    text-align: center;
+}
+.Bimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
