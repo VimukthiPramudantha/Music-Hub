@@ -10,6 +10,10 @@ header {
   text-align: center;
   /* gap: 20px; */
 }
+#all{
+  background: url(./images/francisco-moreno-Nbw2ppKgFLA-unsplash.jpg);
+  background-repeat: no-repeat;
+}
 .img {
   border-radius: 100%;
   opacity: 1;
@@ -27,11 +31,16 @@ header {
   /* border-radius: 100%; */
   margin-bottom: 60px;
 }
+#head{
+  color: whitesmoke;
+}
 #dis {
   text-align: center;
+  color: whitesmoke;
 }
 #bottom {
   text-align: center;
+  color: whitesmoke;
 }
 .Bimg {
   border-radius: 100%;
@@ -76,4 +85,8 @@ header {
   justify-content: center;
   gap: 15px;
   font-family: Tahoma;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
 }
