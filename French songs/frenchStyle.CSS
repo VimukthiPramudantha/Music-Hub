@@ -1,33 +1,97 @@
-header{
-    text-align: center;
+header {
+  text-align: center;
   padding: 3rem;
-  background-color: black ;
+  background-color: black;
   color: white;
   margin-left: 10px;
   margin-bottom: 60px;
 }
-#albums{
-    text-align: center;
+#albums {
+  text-align: center;
 }
-#dis{
-    text-align: center;
+#all{
+  background: url(./images/austin-prock-Hz3Kjzgyv_Q-unsplash.jpg);
+  background-repeat: no-repeat;
 }
-#footer{
-    text-align: center;
+#dis {
+  text-align: center;
+  color: whitesmoke;
 }
-.img{
-    border-radius: 100%;
+#footer {
+  text-align: center;
 }
-#about{
-    margin-left: 50px;
+#h{
+  margin-bottom: 50px;
+  color: whitesmoke;
+}
+#dis2{
+  margin-bottom: 30px;
+  color: whitesmoke;
+}
+.img {
+  border-radius: 100%;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.imgs {
+  border-radius: 100%;
+}
+.img:hover {
+  opacity: 0.3;
+}
+#about {
+  margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 80px;
+  font-family: Tahoma;
 }
-#headImage{
-    display: flex;
+#h2{
+  margin-bottom: 50px;
+  color: whitesmoke;
+}
+#headImage {
+  display: flex;
   align-items: center;
   justify-content: center;
   font-family: Tahoma;
   gap: 20px;
   /* border-radius: 100%; */
   margin-bottom: 60px;
+  color: whitesmoke;
+}
+.fImg {
+  border-radius: 100%;
+  transition: transform ease 0.6s;
+}
+.fImg:hover {
+  transform: translateY(-6px);
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  margin-left: 10px;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #fdebd0;
+  color: black;
+}
+.topnav a.active {
+  /* background-color: #04AA6D; */
+  color: white;
+}
+#AllImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: Tahoma;
+  color: whitesmoke;
 }
