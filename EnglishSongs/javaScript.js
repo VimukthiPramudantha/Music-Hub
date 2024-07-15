@@ -1,11 +1,13 @@
-var isOriginal = true;
+var isDarkMode = false;
 
-  function changeB() {
-    var body = document.getElementsByTagName('body')[0];
-    if (isOriginal) {
-      body.style.backgroundImage = "url('./img/austin-prock-Hz3Kjzgyv_Q-unsplash.jpg')";
-    } else {
-      body.style.backgroundImage = "url('./img/Untitled design.png')";
-    }
-    isOriginal = !isOriginal; // Toggle the state
+function changeB() {
+  var body = document.body;
+  isDarkMode = !isDarkMode;
+  if (isDarkMode) {
+    body.classList.remove("light-mode");
+    body.classList.add("dark-mode");
+  } else {
+    body.classList.remove("dark-mode");
+    body.classList.add("light-mode");
   }
+}

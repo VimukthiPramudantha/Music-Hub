@@ -1,28 +1,27 @@
 header {
   text-align: center;
   padding: 3rem;
-  background-color: black ;
-  color: white;
+  background-color: black;
+  /* color: white; */
   margin-left: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 60px;  
 }
-#DB{
+#DB {
   border: none;
   background-color: black;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
-#DB:hover{
+#DB:hover {
   background-color: #fdebd0;
-  color: black  ;
+  /* color: black  ; */
 }
-#All{
-  
+#All {
   /* background-repeat: no-repeat; */
 }
 #albums {
   text-align: center;
   margin-bottom: 50px;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 #headImage {
   display: flex;
@@ -39,7 +38,7 @@ header {
 }
 #dis2 {
   margin-bottom: 30px;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 #footerImage {
   display: flex;
@@ -51,7 +50,7 @@ header {
 #about {
   margin-left: 50px;
   margin-right: 50px;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   text-shadow: 1px 1px 1px 1px black;
   font-family: Tahoma;
 }
@@ -62,7 +61,7 @@ header {
 }
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -74,73 +73,73 @@ header {
 }
 .topnav a.active {
   /* background-color: #04AA6D; */
-  color: white;
+  /* color: white; */
 }
 #harry {
   /* border-radius: 100%; */
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   transition: transform ease 0.6s;
 }
-#harry:hover{
+#harry:hover {
   transform: translateY(-6px);
 }
 #ariana {
   /* border-radius: 100%; */
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   transition: transform ease 0.6s;
 }
-#ariana:hover{
+#ariana:hover {
   transform: translateY(-6px);
 }
 #jackson {
   /* border-radius: 100%; */
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   transition: transform ease 0.6s;
 }
-#jackson:hover{
+#jackson:hover {
   transform: translateY(-6px);
 }
 #sahakira {
   /* border-radius: 100%; */
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   transition: transform ease 0.6s;
 }
-#sahakira:hover{
+#sahakira:hover {
   transform: translateY(-6px);
 }
 #akon {
   /* border-radius: 100%; */
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   transition: transform ease 0.6s;
 }
-#akon:hover{
+#akon:hover {
   transform: translateY(-6px);
 }
 #cardi {
   /* border-radius: 100%; */
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   transition: transform ease 0.6s;
 }
-#cardi:hover{
+#cardi:hover {
   transform: translateY(-6px);
 }
 #footer {
   margin-bottom: 50px;
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 .img {
   border-radius: 100%;
   opacity: 1;
   transition: 0.5s ease;
 }
-.imgs{
+.imgs {
   border-radius: 100%;
 }
 .img:hover {
@@ -155,21 +154,78 @@ header {
 }
 #popular {
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 #rock {
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 #rap {
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 #old {
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 a {
   text-decoration: none;
-  color: whitesmoke;
+  /* color: whitesmoke; */
+}
+
+/* change theame */
+
+/* Default (Light mode) */
+body {
+  background-color: var(--background-color, whitesmoke);
+  color: var(--text-color, black);
+  font-family: Tahoma;
+  transition: background-color 0.5s, color 0.5s,
+    background-image 0.5s ease-in-out;
+}
+#DB{
+  background-color: var(--nbackground-color,#b6b6b1);
+  color: var(--text-color,black);
+}
+a {
+  color: var(--text-color, black);
+}
+header {
+  background-color: var(--header-bg, #b6b6b1);
+  color: var(--text-color, black);
+}
+.topnav {
+  background-color: var(--nav-color, #b6b6b1);
+}
+
+/* Dark mode */
+body.dark-mode {
+  --background-color: #71706e;
+  --text-color: whitesmoke;
+  --header-bg: #222222;
+  --nbackground-color:#222222;
+  --nav-color: #222222;
+  background-image: url("./img/dark\ mode.jpg");
+}
+body.light-mode {
+  --background-color: whitesmoke;
+  --text-color: black;
+  --header-bg: #b6b6b1;
+  --nbackground-color:#b6b6b1;
+  --nav-color: #b6b6b1;
+  background-image: url("./img/light\ mode.jpg");
+}
+
+button {
+  float: right;
+  width: 80px;
+  height: 47px;
+  color: white;
+  border: none;
+  font-family: Monospace;
+  font-size: large;
+}
+button:hover {
+  background-color: #fdebd0;
+  color: black;
 }
