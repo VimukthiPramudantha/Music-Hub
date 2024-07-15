@@ -4,7 +4,7 @@ header {
   background-color: black;
   /* color: white; */
   margin-left: 10px;
-  margin-bottom: 60px;  
+  margin-bottom: 60px;
 }
 #DB {
   border: none;
@@ -174,8 +174,7 @@ a {
 }
 
 /* change theame */
-
-/* Default (Light mode) */
+/* light mode */
 body {
   background-color: var(--background-color, whitesmoke);
   color: var(--text-color, black);
@@ -183,9 +182,11 @@ body {
   transition: background-color 0.5s, color 0.5s,
     background-image 0.5s ease-in-out;
 }
-#DB{
-  background-color: var(--nbackground-color,#b6b6b1);
-  color: var(--text-color,black);
+#DB {
+  background-color: var(--nbackground-color, #b6b6b1);
+  color: var(--text-color, black);
+  transition: background-color 0.5s, color 0.5s,
+    background-image 0.5s ease-in-out;
 }
 a {
   color: var(--text-color, black);
@@ -193,17 +194,19 @@ a {
 header {
   background-color: var(--header-bg, #b6b6b1);
   color: var(--text-color, black);
+  transition: background-color 0.5s, color 0.5s;
 }
 .topnav {
   background-color: var(--nav-color, #b6b6b1);
+  
 }
 
-/* Dark mode */
+/* dark mode */
 body.dark-mode {
   --background-color: #71706e;
   --text-color: whitesmoke;
   --header-bg: #222222;
-  --nbackground-color:#222222;
+  --nbackground-color: #222222;
   --nav-color: #222222;
   background-image: url("./img/Untitled\ design.png");
 }
@@ -211,7 +214,7 @@ body.light-mode {
   --background-color: whitesmoke;
   --text-color: black;
   --header-bg: #b6b6b1;
-  --nbackground-color:#b6b6b1;
+  --nbackground-color: #b6b6b1;
   --nav-color: #b6b6b1;
   background-image: url("./img/light\ mode.jpg");
 }
@@ -228,4 +231,14 @@ button {
 button:hover {
   background-color: #fdebd0;
   color: black;
+}
+#DB {
+  font-size: large;
+}
+
+#DB img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
 }
