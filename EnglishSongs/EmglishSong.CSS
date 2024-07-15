@@ -6,9 +6,18 @@ header {
   margin-left: 10px;
   margin-bottom: 60px;
 }
+#DB{
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+}
+#DB:hover{
+  background-color: #fdebd0;
+  color: black  ;
+}
 #All{
-  background: url(./img/Untitled\ design.png);
-  background-repeat: no-repeat;
+  
+  /* background-repeat: no-repeat; */
 }
 #albums {
   text-align: center;

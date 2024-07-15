@@ -3,11 +3,17 @@
     <title>English Songs</title>
     <link rel="stylesheet" href="./EmglishSong.CSS" />
   </head>
-  <body>
+  <body id="Bimg"><style id="Bimg">
+    body {
+      background-image: url('./img/Untitled\ design.png');
+      background-repeat: no-repeat;
+      transition: background-image 0.5s ease-in-out;
+    }
+    </style>
     <div id="All">
       <div class="topnav">
+        <button id="DB" onclick="changeB()">Dark</button>
         <a class="active" href="#home">None</a>
-        <a href="#news">None</a>
         <a href="#contact">None</a>
         <a href="../index.html">Home</a>
       </div>
@@ -112,5 +118,6 @@
         </div>
       </main>
     </div>
+    <script src="./javaScript.js"></script>
   </body>
 </html>
