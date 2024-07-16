@@ -196,7 +196,10 @@ button:hover {
 #DB {
   font-size: large;
 }
-
+#DB:hover{
+  background-color: #fdebd0;
+  color: black;
+}
 
 #DB img {
   vertical-align: middle;
