@@ -1,8 +1,8 @@
 header {
   text-align: center;
   padding: 3rem;
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
   margin-bottom: 1px;
   margin-left: 10px;
 }
@@ -13,10 +13,6 @@ header {
   align-items: center;
   justify-content: center;
   gap: 20px;
-}
-.all {
-  background: url(./aleksandr-popov-JhYnL-BiP18-unsplash.jpg);
-  background-repeat: no-repeat;
 }
 .img {
   opacity: 1;
@@ -36,7 +32,7 @@ header {
   text-align: center;
   margin-bottom: 100px;
   margin-top: 80px;
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
 }
 #dis2 {
   margin-left: 50px;
@@ -48,7 +44,7 @@ header {
   padding-top: 30px;
   margin-bottom: 90px;
   text-align: center;
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
 }
 #chamara {
   font-family: Monospace;
@@ -97,7 +93,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 #old {
   font-family: Tahoma;
@@ -122,7 +118,7 @@ a {
 }
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -130,12 +126,81 @@ a {
 }
 .topnav a:hover {
   background-color: #fdebd0;
-  color: black;
+  /* color: black; */
 }
 .topnav a.active {
   /* background-color: #04AA6D; */
-  color: white;
+  /* color: white; */
 }
 #artists {
-  color: #f2f2f2;
+  /* color: #f2f2f2;x */
+}
+
+body {
+  background-color: var(--background-color, whitesmoke);
+  color: var(--text-color, black);
+  font-family: Tahoma;
+  transition: background-color 0.5s, color 0.5s,
+    background-image 0.5s ease-in-out;
+}
+#DB {
+  background-color: var(--nbackground-color, #b6b6b1);
+  color: var(--text-color, black);
+  transition: background-color 0.5s, color 0.5s,
+    background-image 0.5s ease-in-out;
+}
+a {
+  color: var(--text-color, black);
+}
+header {
+  background-color: var(--header-bg, #b6b6b1);
+  color: var(--text-color, black);
+  transition: background-color 0.5s, color 0.5s;
+}
+.topnav {
+  background-color: var(--nav-color, #b6b6b1);
+  color: var(--text-color,black);
+}
+
+/* dark mode */
+body.dark-mode {
+  --background-color: #71706e;
+  --text-color: whitesmoke;
+  --header-bg: #222222;
+  --nbackground-color: #222222;
+  --nav-color: #222222;
+  background-image: url("./marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg");
+}
+body.light-mode {
+  --background-color: whitesmoke;
+  --text-color: black;
+  --header-bg: #b6b6b1;
+  --nbackground-color: #b6b6b1;
+  --nav-color: #b6b6b1;
+  background-image: url("./adrian-korte-5gn2soeAc40-unsplash.jpg");
+}
+
+button {
+  float: right;
+  width: 80px;
+  height: 47px;
+  color: white;
+  border: none;
+  font-family: Monospace;
+  font-size: large;
+}
+button:hover {
+  background-color: #fdebd0;
+  color: black;
+}
+#DB {
+  font-size: large;
+}
+
+
+#DB img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
 }
