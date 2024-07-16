@@ -2,7 +2,7 @@ header {
   text-align: center;
   padding: 3rem;
   background-color: black;
-  color: white;
+  /* color: white; */
   margin-left: 10px;
   margin-bottom: 60px;
 }
@@ -11,7 +11,7 @@ header {
   /* gap: 20px; */
 }
 #all{
-  background: url(./images/francisco-moreno-Nbw2ppKgFLA-unsplash.jpg);
+  /* background: url(./images/francisco-moreno-Nbw2ppKgFLA-unsplash.jpg); */
   background-repeat: no-repeat;
 }
 .img {
@@ -32,15 +32,15 @@ header {
   margin-bottom: 60px;
 }
 #head{
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 #dis {
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 #bottom {
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 .Bimg {
   border-radius: 100%;
@@ -62,7 +62,7 @@ header {
 }
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -74,7 +74,7 @@ header {
 }
 .topnav a.active {
   /* background-color: #04AA6D; */
-  color: white;
+  /* color: white; */
 }
 #album {
   margin-bottom: 50px;
@@ -85,8 +85,81 @@ header {
   justify-content: center;
   gap: 15px;
   font-family: Tahoma;
+  color: whitesmoke;
 }
 a{
   text-decoration: none;
-  color: whitesmoke;
+  /* color: whitesmoke; */
+}
+
+body {
+  background-color: var(--background-color, whitesmoke);
+  color: var(--text-color, black);
+  font-family: Tahoma;
+  transition: background-color 0.5s, color 0.5s,
+    background-image 0.5s ease-in-out;
+}
+#DB {
+  background-color: var(--nbackground-color, #b6b6b1);
+  color: var(--text-color, black);
+  transition: background-color 0.5s, color 0.5s,
+    background-image 0.5s ease-in-out;
+}
+a {
+  color: var(--text-color, black);
+}
+header {
+  background-color: var(--header-bg, #b6b6b1);
+  color: var(--text-color, black);
+  transition: background-color 0.5s, color 0.5s;
+}
+.topnav {
+  background-color: var(--nav-color, #b6b6b1);
+  color: var(--text-color,black);
+}
+
+/* dark mode */
+body.dark-mode {
+  --background-color: #71706e;
+  --text-color: whitesmoke;
+  --header-bg: #222222;
+  --nbackground-color: #222222;
+  --nav-color: #222222;
+  background-image: url("./images/dylan-mcleod-VRdZBLqnoMU-unsplash.jpg ");
+}
+body.light-mode {
+  --background-color: whitesmoke;
+  --text-color: black;
+  --header-bg: #b6b6b1;
+  --nbackground-color: #b6b6b1;
+  --nav-color: #b6b6b1;
+  background-image: url("./images/jason-rosewell-ASKeuOZqhYU-unsplash.jpg");
+}
+
+button {
+  float: right;
+  width: 80px;
+  height: 47px;
+  color: white;
+  border: none;
+  font-family: Monospace;
+  font-size: large;
+}
+button:hover {
+  background-color: #fdebd0;
+  color: black;
+}
+#DB {
+  font-size: large;
+}
+#DB:hover{
+  background-color: #fdebd0;
+  color: black;
+}
+
+#DB img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
 }
