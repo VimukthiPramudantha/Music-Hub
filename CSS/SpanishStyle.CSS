@@ -6,45 +6,21 @@ header {
   margin-left: 10px;
   margin-bottom: 60px;
 }
-#albums {
+#head {
   text-align: center;
+  /* gap: 20px; */
 }
-
-#dis {
-  text-align: center;
-  /* color: whitesmoke; */
-}
-#footer {
-  text-align: center;
-}
-#h{
-  margin-bottom: 50px;
-  /* color: whitesmoke; */
-}
-#dis2{
-  margin-bottom: 30px;
-  /* color: whitesmoke; */
+#all{
+  /* background: url(./images/francisco-moreno-Nbw2ppKgFLA-unsplash.jpg); */
+  background-repeat: no-repeat;
 }
 .img {
   border-radius: 100%;
   opacity: 1;
   transition: 0.5s ease;
 }
-.imgs {
-  border-radius: 100%;
-}
 .img:hover {
   opacity: 0.3;
-}
-#about {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 80px;
-  font-family: Tahoma;
-}
-#h2{
-  margin-bottom: 50px;
-  /* color: whitesmoke; */
 }
 #headImage {
   display: flex;
@@ -54,14 +30,30 @@ header {
   gap: 20px;
   /* border-radius: 100%; */
   margin-bottom: 60px;
+}
+#head{
   /* color: whitesmoke; */
 }
-.fImg {
+#dis {
+  text-align: center;
+  /* color: whitesmoke; */
+}
+#bottom {
+  text-align: center;
+  /* color: whitesmoke; */
+}
+.Bimg {
   border-radius: 100%;
   transition: transform ease 0.6s;
 }
-.fImg:hover {
+.Bimg:hover {
   transform: translateY(-6px);
+}
+#disA {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+  font-family: Tahoma;
 }
 .topnav {
   overflow: hidden;
@@ -78,18 +70,25 @@ header {
 }
 .topnav a:hover {
   background-color: #fdebd0;
-  /* color: black; */
+  color: black;
 }
 .topnav a.active {
   /* background-color: #04AA6D; */
   /* color: white; */
 }
-#AllImg{
+#album {
+  margin-bottom: 50px;
+}
+#bottomImg {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
   font-family: Tahoma;
+  color: whitesmoke;
+}
+a{
+  text-decoration: none;
   /* color: whitesmoke; */
 }
 
@@ -126,7 +125,7 @@ body.dark-mode {
   --header-bg: #222222;
   --nbackground-color: #222222;
   --nav-color: #222222;
-  background-image: url("./images/caio-silva-C7RFkKvThG4-unsplash.jpg");
+  background-image: url("../images/dylan-mcleod-VRdZBLqnoMU-unsplash.jpg ");
 }
 body.light-mode {
   --background-color: whitesmoke;
@@ -134,7 +133,7 @@ body.light-mode {
   --header-bg: #b6b6b1;
   --nbackground-color: #b6b6b1;
   --nav-color: #b6b6b1;
-  background-image: url("./images/jj-ying-7JX0-bfiuxQ-unsplash.jpg");
+  background-image: url("../images/jason-rosewell-ASKeuOZqhYU-unsplash.jpg");
 }
 
 button {
