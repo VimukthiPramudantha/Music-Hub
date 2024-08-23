@@ -208,7 +208,7 @@ body.dark-mode {
   --header-bg: #222222;
   --nbackground-color: #222222;
   --nav-color: #222222;
-  background-image: url("./img/Untitled\ design.png");
+  background-image: url("../images/Untitled\ design.png");
 }
 body.light-mode {
   --background-color: whitesmoke;
@@ -216,7 +216,7 @@ body.light-mode {
   --header-bg: #b6b6b1;
   --nbackground-color: #b6b6b1;
   --nav-color: #b6b6b1;
-  background-image: url("./img/light\ mode.jpg");
+  background-image: url("../images/light\ mode.jpg");
 }
 
 button {
